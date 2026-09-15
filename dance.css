@@ -1,0 +1,275 @@
+body{
+    background-color: #180605;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;    
+}
+
+.header img{
+    height: 70px;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1{
+    background-image: linear-gradient(
+    to right,
+    #180605 0%,
+    #180605 25%,
+    rgba(24, 6, 5, 0.8) 45%,
+    rgba(24, 6, 5, 0.3) 65%
+    ),url(./images/dancersiv.png);
+
+    padding-bottom: 150px;
+    background-repeat: no-repeat;
+}
+
+.hero{
+    margin-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.hero h3{
+    color: rgb(184, 138, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.hero h1{
+    color: rgb(184, 138, 68);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 55px;
+}
+
+.hero p{
+    color: rgb(224, 211, 181);
+}
+
+.view-a{
+    border: 3px solid darkgoldenrod;
+    padding: 10px 15px;
+    text-decoration: none;
+    color:  rgb(224, 211, 181);
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.view-a:hover{
+    color: rgb(184, 138, 68);
+}
+
+.h4-sections{
+    color: rgb(184, 138, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+
+.h1-sections{
+    color: rgb(184, 138, 68);
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 45px;
+    margin: 0 5px;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 40px;
+}
+
+.section2 img{
+    height: 250px;
+    border: 3px solid darkgoldenrod;
+}
+
+.sec2-p{
+    color: rgb(224, 211, 181) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2-p2{
+    color: darkgoldenrod;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 28px;
+}
+
+
+.dancing-script{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+.section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+
+.outer-section3{
+    background-color: #1D0706;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+}
+
+.right-sec3{
+    display: flex;
+    gap: 150px;
+}
+
+.inner-right3{
+    text-align: center;
+}
+
+.inner-right3 img{
+    height: 120px;
+}
+
+.inner-right3 h4{
+    color: rgb(184, 138, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.inner-right3 p{
+    color: rgb(224, 211, 181) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 80px;
+}
+
+.outer-section4{
+    background-color: #210908;
+    margin-top: 0;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    border-top: 0.5px solid #5A3A25;
+}
+
+.right-sec4{
+    display: flex;
+    gap: 50px;
+    border: 5px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+.right-sec4 img{
+    height: 200px;
+}
+
+.list-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.list-div p{
+    color: rgb(224, 211, 181);
+}
+
+.list-div span{
+    color: darkgoldenrod;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px;
+}
+
+.outer-section5{
+    background-color: #1A0706;
+    border-top: 1px solid #5A3A25;
+}
+
+.outer-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-grid img{
+    height: 160px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+.img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.footer{
+    border-top: 1px solid #5A3A25;
+}
+
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 90px;
+}
+
+.footer-h{
+    font-size: 28px;
+    color: rgb(184, 138, 68);
+}
+
+.footer-p{
+    color: rgb(224, 211, 181);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: rgb(224, 211, 181);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color:rgb(224, 211, 181);
+}
