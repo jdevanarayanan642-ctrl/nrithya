@@ -18,9 +18,11 @@
         <div class="header">
             <img src="./images/logo.jpg" alt="">
 
+            <button class="btn" onclick="toggleMenu()">☰</button>
+
             <div class="nav">
                 <nav>
-                    <ul>
+                    <ul id="nav-links">
                         <li><a href="" style="color:  rgb(184, 138, 68); border-bottom: 5px solid  rgb(184, 138, 68); padding-bottom: 10px;width: fit-content;">HOME</a></li>
                         <li><a href="">ABOUT</a></li>
                         <li><a href="">STYLES</a></li>
@@ -111,7 +113,7 @@
                 </div>
 
                 <div class="right-sec4">
-                    <video controls width="600px" muted>
+                    <video controls  muted>
                         <source src="./images/dancevideo.mp4">
                     </video>
                 </div>
@@ -165,5 +167,15 @@
             </div>
         </div>
     </footer>
+
+
+
+
+    <script>
+        const toggleMenu = () =>{
+            let navlinks = document.getElementById('nav-links')
+            navlinks.classList.toggle("active")
+        }
+    </script>
 </body>
 </html>

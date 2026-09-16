@@ -16,6 +16,15 @@ body{
     height: 70px;
 }
 
+.btn{
+    display: none;
+    font-size: 25px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
 .nav ul{
     list-style: none;
     display: flex;
@@ -26,6 +35,10 @@ body{
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover{
+    color: rgb(184, 138, 68);
 }
 
 .section1{
@@ -188,6 +201,10 @@ body{
     border-radius: 5px;
 }
 
+.right-sec4 video{
+    width: 600px;
+}
+
 .right-sec4 img{
     height: 200px;
 }
@@ -273,4 +290,110 @@ body{
     gap: 10px;
     text-decoration: none;
     color:rgb(224, 211, 181);
+}
+
+
+@media (max-width: 768px){
+    .header{
+        margin-right: 7px;
+        margin-left: 20px;
+    }
+    
+    .btn{
+        display: flex;
+        color: rgb(184, 138, 68);
+        margin-right: 0;
+    }
+
+    .nav ul{
+        position: absolute;
+        right: 5px;
+        top: 60px;
+        display: none;
+        flex-direction: column;
+        background-color: #180605;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+    }
+
+    .nav ul.active{
+        display: flex;
+    }
+
+    .section1{
+        background-image: linear-gradient(
+        to right,
+        #180605 0%,
+        #180605 25%,
+        rgba(24, 6, 5, 0.8) 40%,
+        rgba(24, 6, 5, 0.3) 65%
+        ),url(./images/dancersiv2.png);
+        background-size: cover;
+        background-position: right;
+        padding-bottom: 150px;
+        background-repeat: no-repeat;
+    }
+
+    .hero{
+        margin-left: 20px;
+    }
+
+    .section2{
+        flex-direction: column;
+    }
+
+    .inner-sec2{
+        margin: 20px 30px;
+    }
+
+    .section3{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 50px 30px;
+    }
+
+    .right-sec3{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .section4{
+        flex-direction: column;
+        gap: 40px;
+         margin: 50px 30px;
+    }
+
+    .right-sec4 video{
+        width: 300px;
+    }
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 40px 30px;
+        gap: 40px;
+    }
+
+    .inner-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 50px;
+        flex-wrap: wrap;
+    }
+
+    .img-grid img{
+        height: 150px;
+        border: 1px solid darkgoldenrod;
+        border-radius: 5px;
+    }
+
+    .img-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
