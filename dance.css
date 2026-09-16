@@ -150,6 +150,7 @@ body{
 
 .inner-right3 img{
     height: 120px;
+    border-radius: 50%;
 }
 
 .inner-right3 h4{
